@@ -12,23 +12,7 @@
     <h1 class="visually-hidden"><a href="">Интернет магазин "DEVICE"</a></h1>
     <img class="page-header logo" src="#" alt="Логотип сайта">
     <nav class="page-header navigation">
-      <ul class="navigation-list">
-        <li class="-navigation-catalog">
-          <a class="navigation-link" href="#">Каталог товаров</a>
-        </li>
-        <li class="navigation-delivery">
-          <a class="delivery-link" href="#">Доставка</a>
-        </li>
-        <li class="navigation-guarantee"><a class="guarantee-link" href="#">Гарантия</a>
-        </li>
-        <li class="navigation-contacts"><a class="contacts-link" href="#">Контакты</a>
-        </li>
-      </ul>
       <ul class="navigation-list user-navigation">
-        <li class="user-navigation">
-          <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
         <li class="user-navigation">
           <a class="navigation-link" href="#"><span class="visually-hidden">Войти</span>
           </a>
@@ -42,20 +26,37 @@
           </a>
         </li>
       </ul>
+      <ul class="navigation-list">
+        <li class="-navigation-catalog">
+          <a class="navigation-link" href="#">Каталог товаров</a>
+        </li>
+        <li class="navigation-delivery">
+          <a class="delivery-link" href="#">Доставка</a>
+        </li>
+        <li class="navigation-guarantee"><a class="guarantee-link" href="#">Гарантия</a>
+        </li>
+        <li class="navigation-contacts"><a class="contacts-link" href="#">Контакты</a>
+        </li>
+      </ul>
     </nav>
+    <div class="user-search">
+      <h2 class="visually-hidden">Поле для поиска</h2>
+      <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span>
+      </a>
+    </div>
   </header>
   <main class="main-page">
-    <section class="gallery">
+    <section class="slider">
       <h2 class="visually-hidden">Галерея</h2>
-      <img class="gallery-image" src="#" alt="Фотографии товара">
-      <button class="gallery-button slider-prev" type="button">
+      <button class="slider-button slider-prev" type="button">
         <span class="visually-hidden">Предыдущее фото</span>
       </button>
-      <button class="gallery-button slider-next" type="button">
+      <button class="slider-button slider-next" type="button">
         <span class="visually-hidden">Следующее фото</span>
       </button>
-      <ul class="gallery-list">
-        <li class="gallery-product">
+      <ul class="slider-list">
+        <li class="slider-product">
+          <img class="slider-image" src="#" alt="Фотографии товара">
           <h3 class="product-title">Порхает как бабочка,
             жалит как пчела!</h3>
           <span class="product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
@@ -63,7 +64,8 @@
           <p class="product-specification">Дальность полета</p>
           <b class="specification-unit">800 м</b>
         </li>
-        <li class="gallery-product">
+        <li class="slider-product">
+          <img class="slider-image" src="#" alt="Фотографии товара">
           <h3 class="product-title">Порхает как бабочка,
             жалит как пчела!</h3>
           <span class="product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
@@ -71,7 +73,8 @@
           <p class="product-specification">Дальность полета</p>
           <b class="specification-unit">800 м</b>
         </li>
-        <li class="gallery-product">
+        <li class="slider-product">
+          <img class="slider-image" src="#" alt="Фотографии товара">
           <h3 class="product-title">Порхает как бабочка,
             жалит как пчела!</h3>
           <span class="product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
@@ -84,28 +87,34 @@
     <section class="catalog">
       <h2 class="visually-hidden">Каталог товаров</h2>
       <ol class="calalog-list">
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Виртуальная реальность
-            <img class="catalog-item-title" src="#" alt="Очки виртуальной реальности">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Очки виртуальной реальности">
+          <a class="catalog-item-link" href="#">Виртуальная реальность
           </a>
         </li>
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Моноподы для селфи
-            <img class="catalog-item-title" src="#" alt="Моноподы для селфи">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Моноподы для селфи">
+          <a class="catalog-item-link" href="#">Моноподы для селфи
           </a>
         </li>
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Экшн-камеры
-            <img class="catalog-item-title" src="#" alt="Экшн-камеры">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Экшн-камеры">
+          <a class="catalog-item-link" href="#">Экшн-камеры
           </a>
         </li>
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Фитнес-браслеты
-            <img class="catalog-item-title" src="#" alt="Фитнес браслеты">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Фитнес браслеты">
+          <a class="catalog-item-link" href="#">Фитнес-браслеты
           </a>
         </li>
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Умные часы
-            <img class="catalog-item-title" src="#" alt="Часы умнее меня">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Часы умнее меня">
+          <a class="catalog-item-link" href="#">Умные часы
           </a>
         </li>
-        <li class="catalog-item"><a class="catalog-item-link" href="#">Квадрокоптеры
-            <img class="catalog-item-title" src="#" alt="Квадрокоптеры">
+        <li class="catalog-item">
+          <img class="catalog-item-title" src="#" alt="Квадрокоптеры">
+          <a class="catalog-item-link" href="#">Квадрокоптеры
           </a>
         </li>
       </ol>
@@ -114,29 +123,34 @@
       <h2 class="visually-hidden">Услуги</h2>
       <ul class="services-list">
         <li class="list-item">
-          <h3>Доставка</h3>
-          <b>Доставка</b>
-          <p>Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно! Ведь
-            мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          <button class="list-item-buttom">Доставка</button>
         </li>
         <li class="list-item">
-          <h3>Гарантия</h3>
-          <b>Гарантия</b>
-          <p>Если из-за возгорания купленного у нас товара у вас
-            сгорит дом — не переживайте, мы выдадим вам новый.
-            Товар, не дом, конечно же.</p>
+          <button class="list-item-buttom">Гарантия</button>
         </li>
         <li class="list-item">
-          <h3>Кредит</h3>
-          <b>Кредит</b>
-          <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
-            наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+          <button class="list-item-buttom">Кредит</button>
         </li>
       </ul>
+      <div class="servises">
+        <b>Доставка</b>
+        <p>Мы с удовольствием доставим ваш товар прямо
+          к вашему подъезду совершенно бесплатно! Ведь
+          мы неплохо заработаем, поднимая его на ваш этаж.</p>
+        <b>Гарантия</b>
+        <p>Если из-за возгорания купленного у нас товара у вас
+          сгорит дом — не переживайте, мы выдадим вам новый.
+          Товар, не дом, конечно же.</p>
+        <b>Кредит</b>
+        <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
+          наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+      </div>
+    </section>
+    <section class="delivery">
+      <h2 class="visually-hidden">Доставим редкий товар под заказ</h2>
+      <a class="catalog-item-link" href="#">Доставим редкий товар под заказ</a>
     </section>
     <section class="about-us">
-      <b>Доставим редкий товар под заказ</b>
       <h2 class="about-us information">О нас</h2>
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
         Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
@@ -144,8 +158,10 @@
         <li class="list-item"><b>Меловые линии</b></li>
         <li class="list-item"><b>СДИК</b></li>
         <li class="list-item"><b>ТоксБерри</b></li>
-        <li><a href="">Подробнее о нас</a></li>
       </ul>
+      <div class="device-information">
+        <a href="">Подробнее о нас</a>
+      </div>
     </section>
     <section class="contacts">
       <h2 class="contacts-title">Контакты</h2>
